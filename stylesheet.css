@@ -1,0 +1,325 @@
+body {
+        
+}
+
+.mercedes {
+    position: absolute;
+    top: 500px;
+    opacity: 60%;
+    width: 1920px;
+}
+.bmw {
+    position: absolute;
+    top: 1200px;
+    opacity: 60%;
+    width: 1920px;
+}
+.chevorlet {
+    position: absolute;
+    top: 1900px;
+    opacity: 60%;
+    width: 1920px;
+}
+.koenigsegg {
+    position: absolute;
+    top: 2600px;
+    opacity: 60%;
+    width: 1920px;
+}
+img:hover {
+    opacity: 80%;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #575757;
+   width: 1920px;
+   position: fixed;
+   top: 0;
+   z-index: 3;
+}
+li {
+   float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px;
+}
+li a:hover {
+     background-color: #424242;
+}
+.topnav {
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    padding: 35px;
+    width: 25%;
+}
+.searchbutton {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width: 35%;
+    height: 40px;
+}
+.submit1 {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    background-color: #2c4f7a;
+    text-decoration: none;
+    border: none;
+    height: 46px;
+    width: 110px;
+}
+.submit1:hover {
+    background-color: #1d3452;
+}
+h1 {
+    font-size: 2.8em;
+    font-family: sans-serif;
+    position: absolute;
+    top: 160px;
+    left: 25%;
+    color: #2c4f7a;
+}
+.pM {
+    position: absolute;
+    top: 255px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #2c4f7a;
+    font-size: 1.9em;
+}
+.mbutton1 {
+    position: absolute;
+    top: 710px;
+    left: 100px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+.mbutton2 {
+    position: absolute;
+    top: 710px;
+    left: 650px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+.mbutton3 {
+    position: absolute;
+    top: 710px;
+    left: 1200px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+.mbutton4 {
+    position: absolute;
+    top: 710px;
+    left: 1700px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center; 
+}
+.bbutton1 {
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.bbutton2 {
+    position: absolute;
+    top: 1400px;
+    left: 650px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.bbutton3 {
+    position: absolute;
+    top: 1400px;
+    left: 1200px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.bbutton4 {
+    position: absolute;
+    top: 1400px;
+    left: 1700px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.cbutton1 {
+    position: absolute;
+    top: 2100px;
+    left: 100px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.cbutton2 {
+    position: absolute;
+    top: 2100px;
+    left: 650px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.cbutton3 {
+    position: absolute;
+    top: 2100px;
+    left: 1200px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.cbutton4 {
+    position: absolute;
+    top: 2100px;
+    left: 1700px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.kbutton1 {
+    position: absolute;
+    top: 2800px;
+    left: 100px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.kbutton2 {
+    position: absolute;
+    top: 2800px;
+    left: 900px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.kbutton3 {
+    position: absolute;
+    top: 2800px;
+    left: 1700px;
+    text-decoration: none;
+    background-color: #2c4f7a;
+    padding: 18px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.koenigseggp {
+    
+    top: 2460px;
+    color: white;
+    font-size: 3em;
+    background-color: #2c4f7a;
+    text-align: center;
+    width: 1920px;
+}
+a:hover {
+    background-color: #1d3452;
+}
+ .morebutton {
+    background-color: #575757;
+    color: white;
+    padding: 35px 40px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 560px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+ 
